@@ -1,0 +1,10 @@
+python main.py --model model_data/yolov2.weights --config model_data/yolov2.cfg --classes model_data/coco_classes.txt --input test.mp4 --output output/test_output.avi
+
+
+python main.py --model model_data/MobileNetSSD_deploy.caffemodel --config model_data/MobileNetSSD_deploy.prototxt --classes model_data/MobileNet_classes.txt --input test.mp4 --output output/test_output.avi
+
+
+You need to download the weight files MobileNetSSD_deploy.caffemodel and yolov2.weights first and put them in the model_data folder
+.Then excute the command
+ in your environment.
+
